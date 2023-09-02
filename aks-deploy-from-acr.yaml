@@ -13,8 +13,8 @@ spec:
         app: springboot-app
     spec:
       containers:
-      - name: my-springboot-app-shakir
-        image: testconreg12.azurecr.io/springbootappnew:188
+      - name: springboot-app
+        image: testconreg12.azurecr.io/springbootappnew:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8085
