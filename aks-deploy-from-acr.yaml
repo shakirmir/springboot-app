@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: my-springboot-deployment
 spec:
-  replicas: 3
+  replicas: 1z
   selector:
     matchLabels:
       app: springboot-app
@@ -13,7 +13,7 @@ spec:
         app: springboot-app
     spec:
       containers:
-      - name: springboot-app
+      - name: myspringboot-app
         image: testconreg12.azurecr.io/springbootappnew:latest
         imagePullPolicy: Always
         ports:
