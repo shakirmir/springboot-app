@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
 <<<<<<< HEAD
-      - name: testconreg12
+      - name: myspringbootapp1
         image: testconreg12.azurecr.io/springbootapp:latest
         imagePullPolicy: Always
         ports:
