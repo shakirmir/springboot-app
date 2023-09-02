@@ -12,8 +12,14 @@ spec:
       labels:
         app: springboot-app
     spec:
+<<<<<<< HEAD
       containers:      
       - name: testconreg12
+=======
+      containers:
+<<<<<<< HEAD
+      - name: myspringbootapp1
+>>>>>>> 3cb1b8c182cc0cf57979b32ac93b03d2519a1baf
         image: testconreg12.azurecr.io/springbootapp:latest
         imagePullPolicy: Always
         ports:
