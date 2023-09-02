@@ -12,8 +12,7 @@ spec:
       labels:
         app: springboot-app
     spec:
-      containers:
-<<<<<<< HEAD
+      containers:      
       - name: testconreg12
         image: testconreg12.azurecr.io/springbootapp:latest
         imagePullPolicy: Always
